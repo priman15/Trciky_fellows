@@ -1,4 +1,5 @@
 #Using Binary search method. Time Complexity:O(min(log m, log n)) because we skip one half of the array in each step.
+#Binary search to find a point in two lists such that all the elements on the left hand side of the point are lesser than all the elements on the right side of the point.
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         if(len(nums1)<=len(nums2)):
